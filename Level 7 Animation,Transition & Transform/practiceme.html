@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practiceme</title>
+  <style>
+    .border{
+     max-width: 700px;
+     
+      background-color: palevioletred;
+    padding-top: 20px;
+    }
+    .box{
+  
+     
+      width: 100px;
+      height: 100px;
+      background-color: purple;
+      position: relative;
+     top: 0;
+    
+    }
+    .box{
+      animation-name: move;
+      animation-duration: 5s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes move {
+      from{
+        
+        left:0%;
+      }
+      to{
+        
+        left:85%;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="border">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
